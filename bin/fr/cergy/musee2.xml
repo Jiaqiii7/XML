@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<musées xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xsi:noNamespaceSchemaLocation="musee.xsd">
+  <musée idmusée="lop">
+    <nom>Louvre</nom><ville>Paris</ville>
+    <visites>
+      <visiteur date="2021-10-03" payé="8.50">Jean Dupont</visiteur>
+      <visiteur date="2021-10-03" payé="5.00">Marie Dupont</visiteur>
+    </visites>
+  </musée>
+  <musée idmusée="man">
+    <nom>Matisse</nom><ville>Nice</ville>
+    <visites>
+      <visiteur date="2021-10-03" payé="8.00">Kévin Martin</visiteur>
+      <visiteur date="2021-10-04" payé="10.00">Victor Martin</visiteur>
+    </visites>
+  </musée>
+  <objet-art musée="lop" type= "peinture">
+    <intitulé>La Joconde</intitulé>
+    <auteur>Léonard de Vinci</auteur>
+    <description>Peinture à l'<matériau>huile</matériau> sur <matériau>panneau de bois</matériau></description>
+  </objet-art>
+  <objet-art musée="lop" type="sculpture">
+    <intitulé>Vénus de Milo</intitulé>
+    <description>Statue grecque en <matériau>marbre</matériau></description>
+  </objet-art>
+</musées>
